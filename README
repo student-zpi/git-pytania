@@ -9,16 +9,19 @@ dotyczących użytkowania systemu git. Pracujemy tylko w gałęzi 'master'.
 1) Plik index.html otwieramy w dowolnym edytorze tekstowym i jednocześnie w przeglądarce.
    Można wtedy śledzić dokonywane zmiany, zarówno nasze własne, jak i te, które zrobili inni.
 2) Wybieramy jedno pytanie, na które chcemy znaleźć odpowiedź
-  (może warto się skonsultować z resztą grupy, żeby dwie osoby nie robiły tego samego).
-  Znajdujemy rozwiązanie i wpisujemy jest w odpowiednim miejscu pliku 'index.html'.
-3) Zmiany zatwierdzamy i wysyłamy na centralne repozytorium. Jeśli jest to niemożlie
+   (może warto się skonsultować z resztą grupy, żeby dwie osoby nie robiły tego samego).
+   Znajdujemy rozwiązanie i wpisujemy jest w odpowiednim miejscu pliku 'index.html'.
+3) Pytanie bez odpowiedzi jest domyślnie pokazywane (display: inline).
+   Pytanie z odpowiedzią jest ukrywane (display: none). Proszę zrobić to samo z pytaniem,
+   na które odpowiedzieliście.
+4) Zmiany zatwierdzamy i wysyłamy na centralne repozytorium. Jeśli jest to niemożlie
    (ktoś już coś wysłał) to należy najpierw pobrać zmiany z serwera (fetch),
    scalić je naszymi zmianami (merge) i spróbować ponownie wysłać na serwer (push).
    Ewentualne konflikty należy rozwiązać.
 
 ### Część II - będą konflikty ####
 
-4) Proszę się dopisać do listy studentów, autorów odpowiedzi na pytania.
+5) Proszę się dopisać do listy studentów, autorów odpowiedzi na pytania.
    Należe to tak zrobić, aby nie usunąć innych osób, które już się wspisały.
    Tutaj prawie na pewno wystąpią konflikty. Często będzie trzeba używać poleceń push i pull.
 
